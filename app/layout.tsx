@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://saatvik-pradhan.com",
+    url: "https://jyothi-lakshmi-nagaraj.com",
     title: "Jyothi Lakshmi | Web & Software Developer | Passionate About Building AI-Enhanced Solutions",
     description:
       "Computer Science student at Schreyer Honors College, Penn State University. Specializing in AI, Machine Learning, and Software Development.",

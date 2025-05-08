@@ -13,7 +13,7 @@ import Link from "next/link"
 interface ProjectCardProps {
   project: {
     id: number
-    title: string
+    name: string
     description: string
     tags: string[]
     image: string
@@ -90,7 +90,7 @@ export default function ProjectCard3D({ project }: ProjectCardProps) {
         >
           <Image
             src={project.image || "/placeholder.svg"}
-            alt={project.title}
+            alt={project.name || ""}
             fill
             className="object-cover transition-transform duration-500"
             style={{
@@ -136,7 +136,7 @@ export default function ProjectCard3D({ project }: ProjectCardProps) {
               transition: "transform 0.3s ease-out",
             }}
           >
-            {project.title}
+            {project.name}
           </h3>
           {project.period && <p className="text-sm text-muted-foreground mb-2">{project.period}</p>}
 

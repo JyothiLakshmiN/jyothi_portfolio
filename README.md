@@ -1,7 +1,8 @@
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Steps
 ```bash
+### 1. Clone the Repository
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 

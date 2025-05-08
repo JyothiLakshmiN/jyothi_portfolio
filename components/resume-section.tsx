@@ -66,7 +66,7 @@ export default function Resume() {
           transition={{ duration: 0.5 }}
         >
           <Button size="lg" className="flex items-center gap-2" asChild>
-            <a href="/resume.pdf" download>
+            <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
               <Download className="h-5 w-5 mr-2" />
               Download Resume
             </a>

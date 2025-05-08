@@ -5,6 +5,7 @@ import type React from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, ArrowRight, ChevronDown } from "lucide-react"
+import { SiLeetcode } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation"
 import { useState, useEffect } from "react"
 import Image from "next/image"
@@ -62,7 +63,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="w-full px-4 sm:px-8 lg:px-16 z-10">
+      <div className="w-full px-4 py-16 sm:px-8 lg:px-16 z-10">
         <div className="flex flex-col lg:flex-row items-center w-full">
           {/* Left column: Text content */}
           <motion.div
@@ -76,7 +77,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <h1 className="text-7xl lg:text-8xl font-bold mb-4 text-foreground">HELLO</h1>
+              <h1 className="text-7xl lg:text-4xl font-bold mb-4 text-foreground">HELLO</h1>
             </motion.div>
 
             <motion.div
@@ -84,7 +85,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              <h2 className="text-3xl lg:text-4xl font-medium mb-4 text-foreground">I'm Saatvik Pradhan</h2>
+              <h2 className="text-3xl lg:text-4xl font-medium mb-4 text-foreground">I'm Jyothi Lakshmi</h2>
             </motion.div>
 
             <motion.div
@@ -95,7 +96,7 @@ export default function Hero() {
             >
               {isMounted && (
                 <TypeAnimation
-                  sequence={["AI/ML Engineer", 2000, "Software Developer", 2000, "Researcher", 2000]}
+                  sequence={["Web / Software Developer", 2000, "AI Enthusiast", 2000, "Researcher", 2000]}
                   wrapper="span"
                   speed={50}
                   repeat={Number.POSITIVE_INFINITY}
@@ -110,8 +111,10 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="text-lg text-muted-foreground my-8 max-w-md mx-auto lg:mx-0"
             >
-              Passionate about leveraging AI and machine learning to solve complex problems. Computer Science student at
-              Schreyer Honors College, Penn State University.
+              Passionate about leveraging AI and full-stack development to solve real-world problems, 
+              backed by 7 years of professional experience in web technologies. Computer Science master's 
+              student at Chicago State University.
+
             </motion.p>
 
             <motion.div
@@ -150,17 +153,24 @@ export default function Hero() {
               className="flex justify-center lg:justify-start space-x-6"
             >
               <motion.div whileHover={{ scale: 1.1, y: -5 }} whileTap={{ scale: 0.9 }}>
-                <SocialLink href="https://github.com/SaatvikP" icon={<Github className="w-6 h-6" />} label="GitHub" />
+                <SocialLink href="https://github.com/JyothiLakshmiN" icon={<Github className="w-6 h-6" />} label="GitHub" />
               </motion.div>
               <motion.div whileHover={{ scale: 1.1, y: -5 }} whileTap={{ scale: 0.9 }}>
                 <SocialLink
-                  href="https://linkedin.com/in/saatvik-pradhan"
+                  href="https://www.linkedin.com/in/jyothilakshminagaraj/"
                   icon={<Linkedin className="w-6 h-6" />}
                   label="LinkedIn"
                 />
               </motion.div>
               <motion.div whileHover={{ scale: 1.1, y: -5 }} whileTap={{ scale: 0.9 }}>
-                <SocialLink href="mailto:saatvikpradhan@gmail.com" icon={<Mail className="w-6 h-6" />} label="Email" />
+                <SocialLink
+                  href="https://leetcode.com/u/jyothi1995/"
+                  icon={<SiLeetcode size={32} className="w-6 h-6" />}
+                  label="LinkedIn"
+                />
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.1, y: -5 }} whileTap={{ scale: 0.9 }}>
+                <SocialLink href="mailto:jyothilakshmi.cbp@gmail.com" icon={<Mail className="w-6 h-6" />} label="Email" />
               </motion.div>
             </motion.div>
           </motion.div>
@@ -225,8 +235,8 @@ export default function Hero() {
                 }}
               >
                 <Image
-                  src="/portfolio_pic.jpg"
-                  alt="Saatvik Pradhan"
+                  src="/portfolio_pic.jpeg"
+                  alt="Jyothi Lakshmi"
                   width={500}
                   height={500}
                   className="object-cover"

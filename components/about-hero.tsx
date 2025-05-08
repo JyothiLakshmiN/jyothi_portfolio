@@ -59,7 +59,7 @@ export default function AboutHero() {
                   >
                     <Image
                       src="/portfoliopic.jpg"
-                      alt="Saatvik Pradhan"
+                      alt="Jyothi Lakshmi"
                       fill
                       className="object-cover"
                       priority

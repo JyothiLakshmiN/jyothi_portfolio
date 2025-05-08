@@ -8,7 +8,7 @@ const skills = [
   {
     name: "Languages",
     icon: <Code className="h-10 w-10 mb-4 text-primary" />,
-    technologies: ["Python", "Java", "C/C++", "JavaScript", "TypeScript", "HTML/CSS", "SQL", "R"],
+    technologies: ["Python", "Java", "JavaScript", "TypeScript", "HTML/CSS", "SQL", ""],
   },
   {
     name: "AI & Machine Learning",
@@ -18,23 +18,18 @@ const skills = [
   {
     name: "Web Development",
     icon: <Layers className="h-10 w-10 mb-4 text-primary" />,
-    technologies: ["React.js", "Node.js", "Spring Boot", "Angular", "jQuery", "Bootstrap"],
+    technologies: ["React.js", "Node.js", "Next.js", "jQuery", "Bootstrap"],
   },
   {
     name: "Databases & Backend",
     icon: <Database className="h-10 w-10 mb-4 text-primary" />,
-    technologies: ["MySQL", "Firebase", "MongoDB", "Spring Security", "REST APIs"],
+    technologies: ["MySQL", "Firebase", "MongoDB", "GraphQL", "REST APIs"],
   },
   {
     name: "DevOps & Cloud",
     icon: <Cloud className="h-10 w-10 mb-4 text-primary" />,
-    technologies: ["Docker", "AWS", "Azure", "Git", "Linux/Unix"],
-  },
-  {
-    name: "Mobile & IoT",
-    icon: <Server className="h-10 w-10 mb-4 text-primary" />,
-    technologies: ["Android SDK", "Kotlin", "Arduino", "Raspberry Pi"],
-  },
+    technologies: ["AWS", "Azure", "Git", "Linux/Unix", "Docker", "Kubernetes"],
+  }
 ]
 
 export default function Skills() {

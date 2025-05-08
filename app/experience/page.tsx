@@ -21,7 +21,7 @@ export default function ExperiencePage() {
 
         <div className="flex justify-center mb-12">
           <Button size="lg" className="flex items-center gap-2 gradient-border" asChild>
-            <a href="/resume.pdf" download>
+            <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
               <Download className="h-5 w-5 mr-2" />
               Download Resume
             </a>

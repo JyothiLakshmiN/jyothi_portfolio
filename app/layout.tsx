@@ -15,21 +15,21 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Saatvik Pradhan | AI/ML Engineer & Software Developer",
+  title: "Jyothi Lakshmi | Web & Software Developer | Passionate About Building AI-Enhanced Solutions",
   description:
     "Computer Science student at Schreyer Honors College, Penn State University. Specializing in AI, Machine Learning, and Software Development.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://saatvik-pradhan.com",
-    title: "Saatvik Pradhan | AI/ML Engineer & Software Developer",
+    title: "Jyothi Lakshmi | Web & Software Developer | Passionate About Building AI-Enhanced Solutions",
     description:
       "Computer Science student at Schreyer Honors College, Penn State University. Specializing in AI, Machine Learning, and Software Development.",
-    siteName: "Saatvik Pradhan Portfolio",
+    siteName: "Jyothi Lakshmi Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Saatvik Pradhan | AI/ML Engineer & Software Developer",
+    title: "Jyothi Lakshmi | Web & Software Developer | Passionate About Building AI-Enhanced Solutions",
     description:
       "Computer Science student at Schreyer Honors College, Penn State University. Specializing in AI, Machine Learning, and Software Development.",
   },

@@ -4,8 +4,8 @@ import ContactForm from "@/components/contact-form"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact | Saatvik Pradhan",
-  description: "Get in touch with Saatvik Pradhan for collaborations, opportunities, or just to say hello.",
+  title: "Contact | Jyothi Lakshmi Nagaraj",
+  description: "Get in touch with Jyothi Lakshmi for collaborations, opportunities, or just to say hello.",
 }
 
 export default function ContactPage() {

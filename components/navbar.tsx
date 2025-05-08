@@ -67,7 +67,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <motion.div variants={itemVariants} className="flex-shrink-0">
             <Link href="/" className="text-xl md:text-2xl font-bold gradient-text">
-              SP
+              JL
             </Link>
           </motion.div>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
           <motion.div variants={itemVariants} className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-3">
               <motion.a
-                href="https://github.com/SaatvikP"
+                href="https://github.com/JyothiLakshmiN"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -109,7 +109,7 @@ export default function Navbar() {
                 <Github className="h-5 w-5" />
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/saatvik-pradhan"
+                href="https://www.linkedin.com/in/jyothilakshminagaraj/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -169,7 +169,7 @@ export default function Navbar() {
                 ))}
                 <div className="flex space-x-4 pt-2">
                   <motion.a
-                    href="https://github.com/SaatvikP"
+                    href="https://github.com/JyothiLakshmiN"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
@@ -180,7 +180,7 @@ export default function Navbar() {
                     <Github className="h-5 w-5" />
                   </motion.a>
                   <motion.a
-                    href="https://linkedin.com/in/saatvik-pradhan"
+                    href="https://www.linkedin.com/in/jyothilakshminagaraj/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"

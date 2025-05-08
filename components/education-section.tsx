@@ -8,36 +8,21 @@ import { useInView } from "react-intersection-observer"
 
 const education = [
   {
-    degree: "Bachelor of Science - BS, Computer Science",
-    institution: "Schreyer Honors College at Penn State",
-    period: "August 2022 - May 2026 (Expected)",
+    degree: "Master of Science in  Computer Science",
+    institution: "Chicago State University, Chicago, IL",
+    period: "January 2025 - May 2026",
     description:
-      "Pursuing a Computer Science degree with a focus on artificial intelligence and machine learning. Maintaining a 4.0 GPA with coursework in Python, Java, C/C++, AI, and machine learning.",
+      "Pursuing a Master’s in Computer Science with a strong focus on problem-solving, database systems, artificial intelligence, and machine learning. Currently maintaining a 4.0 GPA, with advanced coursework in Python, AI, and ML.",
+    tags: ["Computer Science", "Chicago State University", "AI/ML", "Web development"],
+  },
+  {
+    degree: "Bachelor of Engineering - BE, Computer Science",
+    institution: "Visvesvaraya Technological University, Bengaluru, India",
+    period: "August 2013 - May 2017",
+    description:
+      "Completed a Bachelor's degree in Computer Science with a 3.65 GPA, emphasizing a comprehensive understanding of core computer science principles and technologies.",
     tags: ["Computer Science", "Artificial Intelligence", "Machine Learning", "Honors College"],
-  },
-  {
-    degree: "Visiting Student - Stanford Summer Session, Computer Science",
-    institution: "Stanford University",
-    period: "June 2023 - August 2023",
-    description:
-      "Completed summer coursework in Computer Science, focusing on artificial intelligence and machine learning topics.",
-    tags: ["Computer Science", "Stanford", "AI/ML"],
-  },
-  {
-    degree: "All India Senior School Certificate (CBSE) in Senior School - Grade 12",
-    institution: "Shiv Jyoti Senior Secondary School Kota",
-    period: "April 2020 - June 2022",
-    description:
-      "Completed senior secondary education with focus on Physics, Chemistry, Mathematics, Computer Science, English Core, and Biology.",
-    tags: ["CBSE", "Mathematics", "Computer Science", "Physics"],
-  },
-  {
-    degree: "IGCSE",
-    institution: "The Sanskaar Valley School",
-    period: "April 2019 - March 2020",
-    description: "Completed International General Certificate of Secondary Education curriculum.",
-    tags: ["IGCSE", "Secondary Education"],
-  },
+  }
 ]
 
 export default function EducationSection() {

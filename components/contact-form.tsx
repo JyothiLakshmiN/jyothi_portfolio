@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
 import { Card, CardContent } from "@/components/ui/card"
 import { Mail, Phone, MapPin, Send, Linkedin, Github } from "lucide-react"
+import { SiLeetcode } from "react-icons/si";
 import { useInView } from "react-intersection-observer"
 import SectionReveal from "@/components/section-reveal"
 
@@ -77,10 +78,10 @@ export default function ContactForm() {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <a
-                    href="mailto:saatvikpradhan@gmail.com"
+                    href="mailto:jyothilakshmi.cbp@gmail.com"
                     className="font-medium hover:text-primary transition-colors"
                   >
-                    saatvikpradhan@gmail.com
+                    jyothilakshmi.cbp@gmail.com
                   </a>
                 </div>
               </CardContent>
@@ -94,7 +95,7 @@ export default function ContactForm() {
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
                   <a href="tel:+17179436303" className="font-medium hover:text-primary transition-colors">
-                    +1 (717) 943-6303
+                    +1 (312) 776-9139
                   </a>
                 </div>
               </CardContent>
@@ -107,14 +108,14 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">State College, Pennsylvania</p>
+                  <p className="font-medium">Chicago, IL</p>
                 </div>
               </CardContent>
             </Card>
 
             <div className="flex space-x-4 mt-8">
               <a
-                href="https://github.com/SaatvikP"
+                href="https://github.com/JyothiLakshmiN"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary/10 p-3 rounded-full hover:bg-primary/20 transition-colors"
@@ -123,7 +124,7 @@ export default function ContactForm() {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/saatvik-pradhan"
+                href="https://www.linkedin.com/in/jyothilakshminagaraj/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary/10 p-3 rounded-full hover:bg-primary/20 transition-colors"
@@ -132,7 +133,16 @@ export default function ContactForm() {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a
-                href="mailto:saatvikpradhan@gmail.com"
+                href="https://leetcode.com/u/jyothi1995/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary/10 p-3 rounded-full hover:bg-primary/20 transition-colors"
+              >
+                <SiLeetcode size={32} className="h-6 w-6 text-primary" />
+                <span className="sr-only">LeetCode</span>
+              </a>
+              <a
+                href="mailto:jyothilakshmi.cbp@gmail.com"
                 className="bg-primary/10 p-3 rounded-full hover:bg-primary/20 transition-colors"
               >
                 <Mail className="h-6 w-6 text-primary" />

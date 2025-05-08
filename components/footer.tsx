@@ -58,13 +58,13 @@ export default function Footer() {
 
           <motion.div variants={itemVariants}>
             <Link href="#home" className="text-2xl font-bold gradient-text mb-4">
-              SP
+              JL
             </Link>
           </motion.div>
 
           <motion.div variants={itemVariants} className="flex space-x-6 mb-6">
             <motion.a
-              href="https://github.com/SaatvikP"
+              href="https://github.com/JyothiLakshmiN"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -75,7 +75,7 @@ export default function Footer() {
               <Github className="h-6 w-6" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/saatvik-pradhan"
+              href="https://www.linkedin.com/in/jyothilakshminagaraj/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -86,7 +86,7 @@ export default function Footer() {
               <Linkedin className="h-6 w-6" />
             </motion.a>
             <motion.a
-              href="mailto:saatvikpradhan@gmail.com"
+              href="mailto:jyothilakshmi.cbp@gmail.com"
               aria-label="Email"
               className="hover:text-primary transition-colors"
               whileHover={{ scale: 1.2, rotate: 5, y: -2 }}
@@ -110,7 +110,7 @@ export default function Footer() {
           </motion.div>
 
           <motion.p variants={itemVariants} className="text-muted-foreground text-sm">
-            &copy; {currentYear} Saatvik Pradhan. All rights reserved.
+            &copy; {currentYear} Jyothi Lakshmi. All rights reserved.
           </motion.p>
         </motion.div>
       </div>

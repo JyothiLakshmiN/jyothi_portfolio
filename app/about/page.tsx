@@ -8,9 +8,9 @@ import SectionReveal from "@/components/section-reveal"
 import Skills from "@/components/skills"
 
 export const metadata: Metadata = {
-  title: "About Me | Saatvik Pradhan",
+  title: "About Me | Jyothi Lakshmi",
   description:
-    "Learn more about Saatvik Pradhan's background, skills, and achievements in AI, Machine Learning, and Software Development.",
+    "Learn more about Jyothi Lakshmi's background, skills, and achievements in AI, Machine Learning, and Software Development.",
 }
 
 export default function AboutPage() {
@@ -29,8 +29,8 @@ export default function AboutPage() {
               <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/10 blur-2xl" />
               <div className="relative h-full w-full rounded-lg overflow-hidden border-2 border-primary/20">
                 <Image
-                  src="portfolio_pic.jpg"
-                  alt="Saatvik Pradhan"
+                  src="portfolio_pic.jpeg"
+                  alt="Jyothi Lakshmi"
                   fill
                   className="object-cover"
                   priority
@@ -45,40 +45,38 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">My Background</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I am a Computer Science and Mathematics student at Schreyer Honors College, Penn State University, specializing in artificial intelligence and machine learning. With a 3.98/4.00 GPA, I have consistently been recognized on the Dean's List for academic excellence.
-              </p>
+              I am a Computer Science master's student at Chicago State University, specializing in artificial intelligence, machine learning, and full-stack development. With a 4.0/4.0 GPA, I bring 7+ years of professional experience in web technologies and have a strong foundation in advanced database systems and deep learning.
+</p>
               <p>
-                My academic journey includes a summer at Stanford University, where I explored advanced AI and machine learning concepts, gaining hands-on experience in algorithm development and real-world applications.
-              </p>
-              <p>
-                Through research positions and internships, I have contributed to AI-driven projects ranging from adaptive learning algorithms to real-time image processing systems using YOLOv5 and OpenCV. My experience bridges theoretical research with practical implementation, driving innovation in AI applications.
+              My academic journey includes pursuing a Master's in Computer Science at Chicago State University, where I am specializing in artificial intelligence, machine learning, natural language processing, and advanced database systems.
+              With over 7 years of professional experience in front-end development using modern web technologies like React.js, Redux, and Next.js, I am now expanding into the AI space through academic projects and research. I have developed AI-driven solutions, including an AI-Powered Code Reviewer & Bug Predictor and a Real-Time Public Sentiment Tracker using deep learning (LSTM) and NLP techniques. My background bridges robust front-end engineering with real-world AI implementation, spanning secure cloud search algorithms to scalable, AI-powered web applications — driving innovation at the intersection of user experience and intelligent systems.
               </p>
             </div>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">Achievements</h2>
             <ul className="space-y-2 text-muted-foreground list-disc pl-5">
               <li>
-                Developed an adaptive learning algorithm that improved WisdomNet's reliability by 90% for safety-critical applications, tested on breast cancer and synthetic datasets.
+               Built and automated a migration system for Walmart's Blue Steel Design System using codemod scripts, reducing manual development effort by 80%.
               </li>
               <li>
-                Built an AI-powered real-time detection system using YOLOv5 and OpenCV to identify fire, smoke, and face masks, enhancing safety monitoring.
+               Designed and developed "Multi-Patient Single RX Order" feature for Sam’s Club Pharmacy platform, increasing order value by 20%.
               </li>
               <li>
-                Created a voice-activated Android application for display panel printing, integrating Bluetooth communication and Arduino-based controls.
+              Implemented real-time Tires and Battery Centre features, optimizing cart and checkout flows and improving overall user experience.
               </li>
               <li>
-                Processed T1-weighted MRI data for 887 patients from the PPMI database, applying segmentation and atlas-based alignment to extract clinically relevant features.
+              Developed an AI-powered Code Reviewer and Bug Predictor achieving 85% accuracy, 0.82 F1-score, and 0.88 AUC-ROC score using machine learning and NLP techniques.
               </li>
               <li>
-                Designed a deep learning pipeline combining 3D CNNs, SVM, and Random Forest, achieving 76.4% binary accuracy in Parkinson’s disease classification.
+              Created a real-time sentiment analysis system using LSTM-based deep learning, processing 500K+ tweets and reviews with 92.67% classification accuracy.
               </li>
               <li>
-                Holder of multiple patents, including the In-Pipe Inspection Robot (Indian Design Patent: 360985-001).
+              Migrated Kibana features from version 4 to 6.1 at VuNet Systems, introducing new visualizations like Unified Transaction Map for improved network monitoring.
               </li>
             </ul>
               <div className="mt-8">
                 <Button size="lg" className="flex items-center gap-2" asChild>
-                  <a href="/Pradhan_PSU_FA_24.pdf" download>
+                  <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
                     <Download className="h-5 w-5 mr-2" />
                     Download Resume
                   </a>

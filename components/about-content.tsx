@@ -31,7 +31,7 @@ export default function AboutContent() {
             >
               <Image
                 src="/portfoliopic.jpg"
-                alt="Saatvik Pradhan"
+                alt="Jyothi Lakshmi"
                 fill
                 className="object-cover"
                 priority
@@ -78,7 +78,7 @@ export default function AboutContent() {
 
         <div className="mt-10">
           <Button size="lg" className="flex items-center gap-2" asChild>
-            <a href="/resume.pdf" download>
+            <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
               <Download className="h-5 w-5 mr-2" />
               Download Resume
             </a>

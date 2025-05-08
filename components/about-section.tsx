@@ -8,9 +8,9 @@ import SectionReveal from "@/components/section-reveal"
 import Skills from "@/components/skills"
 
 export const metadata: Metadata = {
-  title: "About Me | Saatvik Pradhan",
+  title: "About Me | Jyothi Lakshmi",
   description:
-    "Learn more about Saatvik Pradhan's background, skills, and achievements in AI, Machine Learning, and Software Development.",
+    "Learn more about Jyothi Lakshmi's background, skills, and achievements in AI, Machine Learning, and Software Development.",
 }
 
 export default function AboutPage() {
@@ -29,8 +29,8 @@ export default function AboutPage() {
               <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/10 blur-2xl" />
               <div className="relative h-full w-full rounded-lg overflow-hidden border-2 border-primary/20">
                 <Image
-                  src="/about_pic.jpg?height=600&width=600"
-                  alt="Saatvik Pradhan"
+                  src="/portfoli_pic.jpeg?height=600&width=600"
+                  alt="Jyothi Lakshmi"
                   fill
                   className="object-cover"
                   priority
@@ -83,7 +83,7 @@ export default function AboutPage() {
 
               <div className="mt-8">
                 <Button size="lg" className="flex items-center gap-2" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
                     <Download className="h-5 w-5 mr-2" />
                     Download Resume
                   </a>

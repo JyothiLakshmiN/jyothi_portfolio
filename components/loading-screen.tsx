@@ -43,7 +43,7 @@ export default function LoadingScreen() {
                 times: [0, 0.5, 0.7, 0.9, 1],
               }}
             >
-              SP
+              JL
             </motion.div>
             <div className="relative w-48 h-1 bg-muted overflow-hidden rounded-full">
               <motion.div

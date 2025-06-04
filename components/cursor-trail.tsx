@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -15,6 +15,9 @@ export default function CursorTrail() {
   const { resolvedTheme } = useTheme()
   const [isMobile, setIsMobile] = useState(false)
 
+  useEffect(() => {
+  console.log(Date.now()); // this is safe
+}, []);
   useEffect(() => {
     // Check if device is mobile
     const checkMobile = () => {
@@ -65,7 +68,7 @@ export default function CursorTrail() {
 
           return (
             <motion.div
-              key={position.timestamp}
+              key={index}
               className="absolute rounded-full"
               style={{
                 left: position.x,

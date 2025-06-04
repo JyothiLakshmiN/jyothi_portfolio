@@ -63,6 +63,15 @@ export default function Navbar() {
         isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border/50" : "bg-transparent",
       )}
     >
+      <a
+  href="/admin"
+  className="text-sm text-gray-600 hover:text-blue-600 underline ml-4"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Editor Login
+</a>
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <motion.div variants={itemVariants} className="flex-shrink-0">

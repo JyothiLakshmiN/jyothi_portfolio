@@ -4,7 +4,6 @@ import { formattedDate } from '../lib/utils';
 interface BlogCardProps {
   post: {
     content: string;
-    date: string;
     slug: string;
     category: string;
     frontmatter: {

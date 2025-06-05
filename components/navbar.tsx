@@ -14,6 +14,7 @@ const navItems = [
   { title: "About", href: "/about" },
   { title: "Experience", href: "/experience" },
   { title: "Projects", href: "/projects" },
+  { title: "Blogs", href: "/blogs" },
   { title: "Contact", href: "/contact" },
 ]
 
@@ -63,14 +64,14 @@ export default function Navbar() {
         isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border/50" : "bg-transparent",
       )}
     >
-      <a
+      {/* <a
   href="/admin"
   className="text-sm text-gray-600 hover:text-blue-600 underline ml-4"
   target="_blank"
   rel="noopener noreferrer"
 >
   Editor Login
-</a>
+</a> */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">

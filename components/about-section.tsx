@@ -83,7 +83,7 @@ export default function AboutPage() {
 
               <div className="mt-8">
                 <Button size="lg" className="flex items-center gap-2" asChild>
-                  <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
+                  <a href="/JYOTHI_LAKSHMI_RESUME.pdf" download>
                     <Download className="h-5 w-5 mr-2" />
                     Download Resume
                   </a>

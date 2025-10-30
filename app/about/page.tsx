@@ -45,12 +45,17 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">My Background</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-              I am a Computer Science master's student at Chicago State University, specializing in artificial intelligence, machine learning, and full-stack development. With a 4.0/4.0 GPA, I bring 7+ years of professional experience in web technologies and have a strong foundation in advanced database systems and deep learning.
+              I am a Master’s student in Computer Science at Chicago State University (GPA: 4.0/4.0), specializing in Artificial Intelligence, Machine Learning, and Full-Stack Development. With over 7 years of professional experience in software engineering, I bring expertise in building scalable, user-centric web applications and intelligent AI-driven solutions.
 </p>
               <p>
-              My academic journey includes pursuing a Master's in Computer Science at Chicago State University, where I am specializing in artificial intelligence, machine learning, natural language processing, and advanced database systems.
-              With over 7 years of professional experience in front-end development using modern web technologies like React.js, Redux, and Next.js, I am now expanding into the AI space through academic projects and research. I have developed AI-driven solutions, including an AI-Powered Code Reviewer & Bug Predictor and a Real-Time Public Sentiment Tracker using deep learning (LSTM) and NLP techniques. My background bridges robust front-end engineering with real-world AI implementation, spanning secure cloud search algorithms to scalable, AI-powered web applications — driving innovation at the intersection of user experience and intelligent systems.
+              Before transitioning into research and AI, I worked at Walmart Global Tech, where I developed and optimized enterprise-scale systems improving delivery efficiency, checkout flows, and user experience for millions of users. My earlier roles at Capgemini (Altran) and VuNet Systems involved designing modern UI systems, leading engineering teams, and implementing real-time monitoring dashboards using ELK and D3.js.
               </p>
+              <p>
+                My academic and research work focus on integrating deep learning and NLP into real-world applications. I have built:
+              </p>
+              <li>
+                
+              </li>
             </div>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">Achievements</h2>
@@ -76,7 +81,7 @@ export default function AboutPage() {
             </ul>
               <div className="mt-8">
                 <Button size="lg" className="flex items-center gap-2" asChild>
-                  <a href="/RESUME_JYOTHILAKSHMI_Nagaraj.pdf" download>
+                  <a href="/JYOTHI_LAKSHMI_RESUME.pdf" download>
                     <Download className="h-5 w-5 mr-2" />
                     Download Resume
                   </a>
